@@ -21,11 +21,8 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-
-.PlusNum button,
-.MinusNum button,
-.multiplyNum button,
-.divideNum button {
+button
+{
   margin-top: 20px;
   width: 80px;
   height: 80px;
@@ -34,5 +31,5 @@ body{
   font-size: 80px;
   cursor: pointer;
   position: relative;
-  top: 70px;
+  top: px;
 }
