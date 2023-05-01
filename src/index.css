@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,192,224,1) 0%, rgba(0,212,255,1) 0%, rgba(177,192,224,1) 0%, rgba(140,140,228,1) 100%);
+}
+
+.count {
+  width: 1000px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  font-size: 60px;
+  height: 950px;
+  left: 50%;
+  top: 20px;
+  margin-left: -500px;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.PlusNum button,
+.MinusNum button,
+.multiplyNum button,
+.divideNum button {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  border: none;
+  font-size: 80px;
+  cursor: pointer;
+  position: relative;
+  top: 70px;
+}
